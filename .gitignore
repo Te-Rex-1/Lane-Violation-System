@@ -1,0 +1,109 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# =========================
+# Build / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# =========================
+# Logs / Caches / Coverage
+# =========================
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.pid
+*.dat
+*.csv
+*.json
+*.yaml
+*.yml
+*.pkl
+*.npy
+*.npz
+*.onnx
+*.engine
+*.tflite
+*.mlmodel
+*.pt
+*.pth
+*.weights
+runs/
+results/
+outputs/
+checkpoints/
+wandb/
+
+# =========================
+# YOLO Specific
+# =========================
+# Model checkpoints and training outputs
+runs/
+train*/
+detect*/
+exp*/
+exp*/weights/
+inference/output/
+inference/images/
+inference/videos/
+
+# Datasets
+datasets/
+data/images/
+data/labels/
+data/raw/
+data/samples/
+data/cache*/
+*.cache
+
+# If using custom dataset paths
+# Uncomment if you want to ignore your data.yaml or dataset.yaml
+# data.yaml
+# dataset.yaml
+
+# =========================
+# PyCharm / IDE
+# =========================
+.idea/
+*.iml
+.vscode/
+*.code-workspace
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Others
+# =========================
+*.tar
+*.gz
+*.zip
+*.tgz
